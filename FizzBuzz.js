@@ -5,14 +5,24 @@
 // if they do both then return fizzbuzz
 // use console.log to print to the console.
 
+// console.log(test);
+// test = 2;
+// let test;
+// console.log(test);
+
+//var result = 1000;
+
+
 for (let i=1; i<101; i++) {
+    let result;
     if ((i%3 === 0) && (i%5 === 0)) {
-        console.log("FizzBuzz");
+        result = "FizzBuzz";
     } else if (i%3 === 0) {
-        console.log("Fizz");
+        result = "Fizz";
     } else if (i%5 === 0) {
-        console.log("Buzz");
+        result = "Buzz";
     } else {
-        console.log(i);
+        result = i;
     }
+    console.log(result);
 }
